@@ -1,11 +1,11 @@
-# MechMate AI — Industrial Machine Maintenance & Engineering Intelligence Platform
+# MechMate AI — Aerospace Machine Maintenance & Mission Reliability Platform
 
-> **Tagline:** Physics-Informed AI Intelligence for Rotating Machinery Diagnostics & Predictive Reliability  
+> **Tagline:** Physics-Informed AI Intelligence for Mission-Critical Spacecraft Components & Orbital Machinery  
 > **Core Architecture:** `Observe → Understand → Reason → Simulate → Recommend → Explain`
 
-MechMate AI is an advanced, production-grade industrial predictive maintenance platform engineered specifically for rotating machinery—including heavy multi-stage industrial gearboxes, high-voltage induction motors, centrifugal slurry pumps, compressors, and power generation turbines.
+MechMate AI is an advanced, production-grade aerospace predictive maintenance platform engineered specifically for mission-critical space infrastructure—including NASA ISAAC project systems, ISS EBF3 (Electron Beam Freeform Fabrication) hardware, life support sub-systems, and deep-space rotating machinery.
 
-The platform bridges real-time multi-channel sensor telemetry, mechanical engineering physics calculations, interactive 3D WebGL digital twins, "What-If" operational stress simulations, and a root-cause reasoning engine powered by Google Gemini with deterministic engineering fallbacks.
+The platform bridges real-time multi-channel telemetry streams from orbit, aerospace engineering physics calculations, interactive 3D WebGL digital twins of spacecraft modules, "What-If" operational stress labs, and a root-cause reasoning engine powered by Google Gemini with deterministic engineering fallbacks.
 
 ---
 
@@ -14,8 +14,8 @@ The platform bridges real-time multi-channel sensor telemetry, mechanical engine
 ```text
                                  ┌───────────────────────────────────────────────────┐
                                  │                MECHMATE AI CORE                   │
-                                 │   • Machine Store        • Telemetry Channels     │
-                                 │   • Physics Equations    • ISO 10816 Compliance   │
+                                 │   • Spacecraft Store     • Telemetry Channels     │
+                                 │   • Physics Equations    • Telemetry Compliance   │
                                  │   • Causal Diagnostics   • Health Index Scoring   │
                                  │   • RAG Knowledge Base   • What-If Simulator      │
                                  └─────────────────────────┬─────────────────────────┘
@@ -27,7 +27,7 @@ The platform bridges real-time multi-channel sensor telemetry, mechanical engine
           │ • Three.js 3D Twin      │                                                 │ • Gemini Flash Copilot  │
           │ • Real-Time Telemetry   │ ◄────────── JSON REST API / WebSockets ────────►│ • Deterministic RAG     │
           │ • What-If Stress Lab    │                                                 │ • Telemetry Streaming   │
-          │ • ISO 17359 PDF Reports │                                                 │ • Health & Diagnostics  │
+          │ • Aerospace PDF Reports │                                                 │ • Health & Diagnostics  │
           └─────────────────────────┘                                                 └─────────────────────────┘
 ```
 
@@ -36,42 +36,42 @@ The platform bridges real-time multi-channel sensor telemetry, mechanical engine
 - **Frontend Framework:** React 18, Vite, Tailwind CSS
 - **3D Visualization:** Three.js, WebGL (Dynamic Hotspot & Stress Shader Overlays)
 - **AI & Reasoning:** Google Gemini API (`gemini-2.5-flash`), with deterministic rule-based engineering fallback
-- **Industrial Standards:** ISO 10816 / ISO 20816 (Mechanical Vibration Severity), ISO 281 ($L_{10h}$ Bearing Life), AGMA 2001 (Gear Rating)
-- **Reporting Engine:** jsPDF for instant ISO 17359 audit compliance reports
+- **Aerospace & Mechanical Standards:** NASA Reliability Standards, ISO 20816 (Vibration Severity), ISO 281 (\(L_{10h}\) Bearing Life)
+- **Reporting Engine:** jsPDF for instant mission-readiness audit compliance reports
 
 ---
 
 ## 2. Core Platform Capabilities
 
-### 1. Real-Time Telemetry Monitoring
-- **Vibration Severity:** Overall velocity RMS (mm/s) evaluated strictly against ISO 10816-3 Class I-IV velocity vibration thresholds (Good, Acceptable, Unsatisfactory, Unacceptable).
-- **Thermal Footprint:** Dual-probe Drive-End (DE) and Non-Drive-End (NDE) bearing temperatures (°C) with rolling Z-score delta calculations.
-- **Speed & Load:** Input & output shaft rotational speed (RPM), mechanical loading percentage (%), and transmitted electrical power (kW).
-- **Tribology & Sump:** Sump oil temperature (°C), viscosity degradation index (%), and lubricant pressure (bar).
+### 1. Real-Time Aerospace Telemetry Monitoring
+- **Orbital Vibration Severity:** Overall velocity RMS (mm/s) evaluated strictly against microgravity and high-vibration rocket launch flight specs.
+- **Thermal Footprint:** Dual-probe Drive-End (DE) and Non-Drive-End (NDE) bearing temperatures (°C) monitored to sustain strict vacuum limits.
+- **Speed & Load:** Input & output shaft rotational speed (RPM), mechanical loading percentage (%), and transmitted solar electrical power (kW).
+- **Tribology & Coolant:** Sump fluid temperature (°C), viscosity degradation index (%), and lubricant/coolant pressure (bar).
 
-### 2. Interactive 3D Parametric Digital Twin
-- Interactive Three.js CAD twin with orbit controls, pan, zoom, and component isolation.
-- Exploded-view inspection for housing, input/output shafts, cylindrical roller bearings, helical gear meshes, and lubrication sumps.
+### 2. Interactive 3D Spacecraft Component Digital Twin
+- Interactive Three.js CAD twin with orbit controls, pan, zoom, and space hardware component isolation.
+- Exploded-view inspection for housing, input/output shafts, aerospace bearings, helical gear meshes, and lubrication sumps.
 - Dynamic color-coded thermal & stress hotspot projection linked directly to live telemetry streams.
 
 ### 3. Physics-Informed Mechanical Calculations
-- **Input/Output Shaft Torque:** $T = 9550 \cdot \frac{P}{\text{RPM}}$ (Nm)
-- **Reduction Ratio Determination:** $i = \frac{N_{in}}{N_{out}}$ (multi-stage split verification)
-- **Shaft Shear Stress Sizing:** Preliminary diameter validation using maximum torsional shear $\tau_{allow}$ and application shock factor $K_a$.
-- **ISO 281 Bearing Life Derating:** Evaluates temperature-dependent lubrication film breakdown and viscosity ratio $\kappa$ impact on $L_{10h}$ life.
+- **Input/Output Shaft Torque:** \(T = 9550 \cdot \frac{P}{\text{RPM}}\) (Nm)
+- **Reduction Ratio Determination:** \(i = \frac{N_{in}}{N_{out}}\) (multi-stage split verification)
+- **Shaft Shear Stress Sizing:** Preliminary diameter validation using maximum torsional shear \(\tau_{allow}\) and application shock factor \(K_a\).
+- **ISO 281 Bearing Life Derating:** Evaluates temperature-dependent lubrication film breakdown and viscosity ratio κ impact on \(L_{10h}\) life.
 
 ### 4. "What-If" Operational Stress Simulation
-- Allows plant operators and maintenance engineers to model non-standard operating scenarios without risking physical equipment.
+- Allows flight control teams and maintenance engineers to model non-standard operating scenarios without risking physical space hardware.
 - Adjust RPM and mechanical load percentage to immediately project resulting bearing temperatures, thermal margins, and lubrication film breakdown risk.
 
 ### 5. AI Engineering Copilot
 - Root-cause failure mode ranking (e.g., inner race spalling, angular misalignment, lubrication starvation, unbalance).
-- Natural language query answering grounded in engineering datasheets (SKF, ISO standards, and manufacturer manuals).
-- Prioritized ISO 17359 inspection plans and tool checklists.
+- Natural language query answering grounded in engineering datasheets (NASA technical briefs, SKF, and manufacturer manuals).
+- Prioritized aerospace inspection plans and tool checklists.
 
-### 6. Automated ISO 17359 Compliance Reports
+### 6. Automated Space-Readiness Compliance Reports
 - One-click export of structured engineering audit documents in PDF format.
-- Includes timestamped telemetry baselines, root cause findings, component stress summaries, and technician sign-off blocks.
+- Includes timestamped telemetry baselines, root cause findings, component stress summaries, and mission director sign-off blocks.
 
 ---
 
