@@ -139,3 +139,16 @@ npm start
 ```bash
 npm run lint
 ```
+---
+
+---
+
+## 5. Project Links & NASA Data References
+
+| Resource | Link / Access |
+| :--- | :--- |
+| **🌐 Live Interactive App** | [Launch MechMate AI Workstation (Vercel)](https://mechmateai-ruby.vercel.app) |
+| **🎬 Product Demo Video** | [Watch Full Walkthrough on YouTube](https://youtu.be) |
+| **💻 Source Code Repository** | [GitHub - MachMateAI-NASA](https://github.com) |
+| **📊 NASA Dataset #1** | [NASA IMS Bearing Dataset (data.nasa.gov)](https://nasa.gov) |
+| **🚀 NASA Dataset #2** | [NASA C-MAPSS Turbofan Dataset (data.nasa.gov)](https://nasa.gov) |
